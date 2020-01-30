@@ -2,7 +2,7 @@
 In this problem I just use bruteforce until I reach 10001st prime number.
 """
 
-def check_prime(x):
+def checkPrime(x):
     for i in range(2, int(x**(0.5))+1):
         if x % i == 0:
             return False
@@ -13,7 +13,7 @@ def main():
     number = 3
     nth_prime = 1
     while nth_prime < 10001:
-        if check_prime(number):
+        if checkPrime(number):
             nth_prime += 1
             number += 2
         else:
