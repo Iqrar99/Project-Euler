@@ -7,6 +7,7 @@ def main():
     factorial = [0]*10
     factorial[0] = 1
     factorial[1] = 1
+    
     for i in range(2,10):
         factorial[i] = i*factorial[i-1]
 
