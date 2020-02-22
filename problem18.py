@@ -1,5 +1,5 @@
 """
-Try to save the maximum calculation in a cumulative-sum list.
+Try to save the maximum calculation in a cumulative sum list.
 """
 
 def main():
