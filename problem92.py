@@ -1,5 +1,5 @@
 """
-The easiest way is storing all numbers that will touch number 1.
+The easiest way is storing all numbers that will touch number 1 and 89.
 That way, we just check all numbers stored before for the rest.
 """
 
@@ -31,7 +31,7 @@ def main():
             except KeyError:
                 x = number
                 history = []
-                while x not in [1 , 89]:
+                while x not in [1, 89]:
                     history.append(x)
                     x = calculate(x)
 
