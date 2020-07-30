@@ -4,7 +4,7 @@ We need to use Inclusive-Exclusive principle.
 """
 
 # function to find Sn in an arithmetic sequence
-def Sn(a,b,n):
+def Sn(a, b, n):
     return (n*(2*a + (n-1)*b))//2
 
 def main():

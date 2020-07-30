@@ -12,7 +12,7 @@ def main():
     total = 0
     for i in range(1, 1001):
         total += len(words(i))
-        print(i,words(i), len(words(i)))
+        print(i, words(i), len(words(i)))
     
     print(total)
 
