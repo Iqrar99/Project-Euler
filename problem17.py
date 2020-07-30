@@ -10,7 +10,7 @@ digit2 = ['ten', 'eleven', 'twelve', 'thir', 'for',
 def main():
 
     total = 0
-    for i in range(1,1001):
+    for i in range(1, 1001):
         total += len(words(i))
         print(i,words(i), len(words(i)))
     
@@ -51,7 +51,7 @@ def words(number):
     else:
         answer = 'one thousand'
 
-    return answer.replace(' ','')
+    return answer.replace(' ', '')
 
 if __name__ == "__main__":
     main()

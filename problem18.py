@@ -27,7 +27,7 @@ def main():
     cumulative = [[0 for _ in range(len(TRIANGLE))] for _ in range(len(TRIANGLE))]
     cumulative[0][0] = TRIANGLE[0][0]
     
-    for r in range(1,len(TRIANGLE)):
+    for r in range(1, len(TRIANGLE)):
         for c in range(r+1):
             if c == 0:
                 cumulative[r][c] = cumulative[r-1][c] + TRIANGLE[r][c]

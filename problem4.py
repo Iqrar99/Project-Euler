@@ -15,8 +15,8 @@ def checkPalindrome(n : str):
 def main():
     max_palindrome = 0
 
-    for a in range(100,1000):
-        for b in range(100,1000):
+    for a in range(100, 1000):
+        for b in range(100, 1000):
            mul = a*b
            if checkPalindrome(str(mul)):
                max_palindrome = max(max_palindrome, mul)

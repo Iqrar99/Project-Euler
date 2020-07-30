@@ -59,7 +59,7 @@ def main():
 
     # max_diagonal1 (top right bottom left)
     for r in range(17):
-        for c in range(19,2,-1):
+        for c in range(19, 2, -1):
             mul = 1
             for d in range(4):
                 mul *= numbers[r+d][c-d]

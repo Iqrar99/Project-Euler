@@ -19,7 +19,7 @@ def d(n):
 
 def main():
     total = 0
-    for a in range(2,10000):
+    for a in range(2, 10000):
         b = d(a)
         c = d(b)
         if c == a and a != b:

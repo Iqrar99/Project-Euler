@@ -8,7 +8,7 @@ The DP algorithm is:
 
 
 # we will use bottom-up approach
-def DP(r,c):
+def DP(r, c):
     dp = [[0]*(r+1)]*(c+1)
 
     for i in range(r+1):
@@ -21,7 +21,7 @@ def DP(r,c):
     return dp[r][c]
 
 def main():
-    print(DP(20,20))
+    print(DP(20, 20))
 
 if __name__ == "__main__":
     main()

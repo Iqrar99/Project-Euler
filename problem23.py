@@ -21,7 +21,7 @@ def abundantCheck(n):
     return True if mul - nn > nn else False
 
 def main():
-    for i in range(12,28124):
+    for i in range(12, 28124):
         if abundantCheck(i):
             abundant_list.append(i)
 

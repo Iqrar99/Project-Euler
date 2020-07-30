@@ -8,8 +8,8 @@ def main():
     answer = 0
     found = False
 
-    for a in range(1,1000):
-        for b in range(1,1000):
+    for a in range(1, 1000):
+        for b in range(1, 1000):
             if a != b:
                 c = (a**2 + b**2)**0.5
                 if a + b + c == 1000:

@@ -13,13 +13,13 @@ def GCD(a,b):
     return GCD(b, a % b)
 
 def LCM(a,b):
-    return (a * b)//GCD(a,b)
+    return (a * b)//GCD(a, b)
 
 def main():
 
     lcm = 1
-    for i in range(2,21):
-        lcm = LCM(lcm,i)
+    for i in range(2, 21):
+        lcm = LCM(lcm, i)
 
     print(lcm)
 

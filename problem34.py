@@ -8,11 +8,11 @@ def main():
     factorial[0] = 1
     factorial[1] = 1
     
-    for i in range(2,10):
+    for i in range(2, 10):
         factorial[i] = i*factorial[i-1]
 
     ans = 0
-    for number in range(3,10**7):
+    for number in range(3, 10**7):
         total = 0
         x = number
 

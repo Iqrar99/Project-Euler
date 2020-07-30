@@ -10,11 +10,11 @@ def compute(s):
     return value
 
 def main():
-    with open('p022_names.txt','r') as infile:
+    with open('p022_names.txt', 'r') as infile:
         data = infile.read().split(',')
 
     for i in range(len(data)):
-        data[i] = data[i].replace('"','')
+        data[i] = data[i].replace('"', '')
 
     data.sort()
 

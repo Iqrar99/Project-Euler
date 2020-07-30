@@ -3,7 +3,7 @@ This problem can be done using Dynamic Programming: Coin Change combinations.
 The complexity will be O(mn).
 """
 
-def coin_change(s:list, n:int) -> int:
+def coin_change(s: list, n: int) -> int:
     """
     function to get total combinations to get n value based
     on the coin list.

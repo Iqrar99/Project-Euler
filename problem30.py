@@ -30,7 +30,7 @@ def fifthPower(n):
 
 def main():
     total = 0
-    for x in range(10,10**7):
+    for x in range(10, 10**7):
         total += fifthPower(str(x))
 
     print(total)

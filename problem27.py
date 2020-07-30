@@ -16,8 +16,8 @@ def checkPrime(x):
 def main():
     max_a = max_b = -1000
     total_max = -1
-    for a in range(-999,1000):
-        for b in range(-999,1001,2):
+    for a in range(-999, 1000):
+        for b in range(-999, 1001, 2):
             total = 0
             for n in range(10000):
                 formula = n**2 + a*n + b

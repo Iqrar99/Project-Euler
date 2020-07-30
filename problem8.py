@@ -25,10 +25,10 @@ def main():
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450
-    """.replace('\n','').strip()
+    """.replace('\n', '').strip()
 
     max_product = -1
-    for i in range(13,1000):
+    for i in range(13, 1000):
         max_product = max(max_product, product(GREAT_NUMBER[i-13:i]))
 
     print(max_product)
