@@ -14,7 +14,7 @@ def checkPalindrome(s):
 def main():
     total = 0
 
-    for number in range(1,10**6):
+    for number in range(1, 10**6):
         binary = int(bin(number)[2:])
 
         if checkPalindrome(str(number)):
