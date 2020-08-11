@@ -28,7 +28,7 @@ def search(target, prime_list) -> bool:
     function to search a number in a list using Binary Search.
     """
 
-    l, r  = 0, len(prime_list) - 1
+    l, r = 0, len(prime_list) - 1
     while l <= r:
         m = (l + r) // 2
         
