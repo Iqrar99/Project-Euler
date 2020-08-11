@@ -12,7 +12,7 @@ def d(n):
             while n % p == 0:
                 n //= p
                 power += 1
-            mul *= (p**(power+1) - 1)//(p-1) # the formula
+            mul *= (p**(power+1) - 1)//(p-1)  # the formula
         if n == 1: break
 
     return mul - nn

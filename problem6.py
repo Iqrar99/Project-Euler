@@ -7,7 +7,7 @@ def Sn(a, b, n):
 
 def main():
     square_of_sum = Sn(1, 1, 100)**2
-    sum_of_square = (100*101*201)//6 #using sum of square sequence formula 
+    sum_of_square = (100*101*201)//6  # using sum of square sequence formula 
 
     print(square_of_sum - sum_of_square)
 
