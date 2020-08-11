@@ -11,7 +11,7 @@ def main():
     a = factorial(100)
     total = 0
     while a > 0:
-        total += a%10
+        total += a % 10
         a //= 10
 
     print(total)

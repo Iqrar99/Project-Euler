@@ -17,7 +17,7 @@ def main():
         x = number
 
         while x != 0:
-            total += factorial[x%10]
+            total += factorial[x % 10]
             x //= 10
         
         if total == number:
