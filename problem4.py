@@ -2,7 +2,7 @@
 Just brute force all 3-digit numbers.
 """
 
-def checkPalindrome(n : str):
+def checkPalindrome(n: str):
     if len(n) > 1:
         if n[0] == n[-1]:
             return checkPalindrome(n[1:-1])

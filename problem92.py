@@ -15,8 +15,8 @@ def calculate(x: int) -> int:
     return sum(list(map(lambda a: a**2, digits)))
 
 def main():
-    history_1 = {1 : 1}
-    history_89 = {89 : 89}
+    history_1 = {1: 1}
+    history_89 = {89: 89}
 
     for number in tqdm(range(2, 10**7)):
         try:

@@ -8,7 +8,7 @@ that have four distinct prime factors.
 from math import sqrt, floor
 
 def is_prime(number) -> bool:
-    if number < 2 :
+    if number < 2:
         return False
 
     for i in range(2, floor(sqrt(number)) + 1):

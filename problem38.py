@@ -4,7 +4,7 @@ produce a pandigital number. Use the set operation to check
 the duplicate digits when concatenate the numbers.
 """
 
-def is_pandigital(number : str) -> bool:
+def is_pandigital(number: str) -> bool:
     """
     function to check whether a number
     is a pandigital 1-9 or not.
