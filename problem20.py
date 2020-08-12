@@ -5,7 +5,7 @@ Just compute the factorial then count all digits
 def factorial(x):
     if x < 1:
         return 1
-    return factorial(x-1) * x
+    return factorial(x - 1) * x
 
 def main():
     a = factorial(100)

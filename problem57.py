@@ -8,7 +8,7 @@ def calculate(n, d):
     function to calculate the fractions.
     """
 
-    return d, (2*d) + n
+    return d, (2 * d) + n
 
 def main():
     cnt = 0

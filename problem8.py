@@ -29,7 +29,7 @@ def main():
 
     max_product = -1
     for i in range(13, 1000):
-        max_product = max(max_product, product(GREAT_NUMBER[i-13:i]))
+        max_product = max(max_product, product(GREAT_NUMBER[i - 13:i]))
 
     print(max_product)
 

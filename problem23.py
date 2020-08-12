@@ -8,13 +8,13 @@ def abundantCheck(n):
     nn = n
 
     mul = 1
-    for p in range(2, n+1):
+    for p in range(2, n + 1):
         power = 0
         if n % p == 0:
             while n % p == 0:
                 n //= p
                 power += 1
-            mul *= (p**(power+1) - 1)//(p-1)  # the formula from problem #21
+            mul *= (p**(power + 1) - 1) // (p - 1)  # the formula from problem #21
         if n == 1:
             break
 
@@ -27,7 +27,7 @@ def main():
 
     total_non_abundant = 0
     total_abundant = 0
-    total = (28123*28124)//2
+    total = (28123 * 28124) // 2
 
     two_abundant_set = set()
 

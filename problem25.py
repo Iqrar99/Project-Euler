@@ -8,7 +8,7 @@ def main():
     b = 1
 
     while len(str(b)) != 1000:
-        a, b = b, a+b
+        a, b = b, a + b
         idx += 1
 
     print(idx)

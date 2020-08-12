@@ -4,12 +4,12 @@ We can save our computation time with it.
 """
 
 def main():
-    factorial = [0]*10
+    factorial = [0] * 10
     factorial[0] = 1
     factorial[1] = 1
     
     for i in range(2, 10):
-        factorial[i] = i*factorial[i-1]
+        factorial[i] = i * factorial[i - 1]
 
     ans = 0
     for number in range(3, 10**7):

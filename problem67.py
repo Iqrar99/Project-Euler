@@ -16,15 +16,15 @@ def main():
     cumulative[0][0] = TRIANGLE[0][0]
 
     for r in range(1, len(TRIANGLE)):
-        for c in range(r+1):
+        for c in range(r + 1):
             if c == 0:
-                cumulative[r][c] = cumulative[r-1][c] + TRIANGLE[r][c]
+                cumulative[r][c] = cumulative[r - 1][c] + TRIANGLE[r][c]
             elif c == r:
-                cumulative[r][c] = cumulative[r-1][c-1] + TRIANGLE[r][c]
+                cumulative[r][c] = cumulative[r - 1][c - 1] + TRIANGLE[r][c]
             else:
                 cumulative[r][c] = max(
-                    cumulative[r-1][c-1] +
-                    TRIANGLE[r][c], cumulative[r-1][c] + TRIANGLE[r][c]
+                    cumulative[r - 1][c - 1] +
+                    TRIANGLE[r][c], cumulative[r - 1][c] + TRIANGLE[r][c]
                 )
 
     print(max(cumulative[len(TRIANGLE) - 1]))

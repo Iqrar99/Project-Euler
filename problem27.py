@@ -7,7 +7,7 @@ def checkPrime(x):
     if x < 2:
         return False
     else:
-        for i in range(2, int(x**0.5)+1):
+        for i in range(2, int(x**0.5) + 1):
             if x % i == 0:
                 return False
 
@@ -20,7 +20,7 @@ def main():
         for b in range(-999, 1001, 2):
             total = 0
             for n in range(10000):
-                formula = n**2 + a*n + b
+                formula = n**2 + a * n + b
                 if checkPrime(formula):
                     total += 1
                 else:
@@ -32,7 +32,7 @@ def main():
                 max_b = b
 
     # print(max_a, max_b, total_max)
-    print(max_a*max_b)
+    print(max_a * max_b)
 
 
 if __name__ == "__main__":

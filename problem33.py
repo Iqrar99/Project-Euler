@@ -71,7 +71,7 @@ def main():
                     numerator, denominator, similar_number)
 
                 try:
-                    x = (numerator/denominator) / (num/den)
+                    x = (numerator / denominator) / (num / den)
                     if x == 1.0:
                         nontrivia_numerator.append(numerator)
                         nontrivia_denominator.append(denominator)

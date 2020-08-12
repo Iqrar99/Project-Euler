@@ -3,7 +3,7 @@ In this problem I just use bruteforce until I reach 10001st prime number.
 """
 
 def checkPrime(x):
-    for i in range(2, int(x**(0.5))+1):
+    for i in range(2, int(x**(0.5)) + 1):
         if x % i == 0:
             return False
     

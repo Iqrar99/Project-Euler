@@ -25,8 +25,8 @@ U(n) = 4(n-1)^2 + 1
 def d1(n):
     a = 1
     total = 1
-    for i in range(2, n+1):
-        a = 8*i - 10 + a
+    for i in range(2, n + 1):
+        a = 8 * i - 10 + a
         total += a
 
     return total
@@ -35,8 +35,8 @@ def d1(n):
 def d2(n):
     a = 1
     total = 1
-    for i in range(2, n+1):
-        a = 8*i - 14 + a
+    for i in range(2, n + 1):
+        a = 8 * i - 14 + a
         total += a
 
     return total
@@ -44,22 +44,22 @@ def d2(n):
 
 def d3(n):
     total = 0
-    for i in range(1, n+1):
-        total += (2*i - 1)**2
+    for i in range(1, n + 1):
+        total += (2 * i - 1)**2
 
     return total
 
 
 def d4(n):
     total = 0
-    for i in range(1, n+1):
-        total += 4*(i-1)**2 + 1
+    for i in range(1, n + 1):
+        total += 4 * (i - 1)**2 + 1
 
     return total
 
 
 def main():
-    x = 1001//2 + 1
+    x = 1001 // 2 + 1
 
     print(d1(x) + d2(x) + d3(x) + d4(x) - 3)
 

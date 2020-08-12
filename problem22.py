@@ -20,7 +20,7 @@ def main():
 
     total = 0
     for i in range(len(data)):
-        total += (i+1) * compute(data[i])
+        total += (i + 1) * compute(data[i])
 
     print(total)
 

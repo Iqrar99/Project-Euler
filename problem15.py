@@ -9,14 +9,14 @@ The DP algorithm is:
 
 # we will use bottom-up approach
 def DP(r, c):
-    dp = [[0]*(r+1)]*(c+1)
+    dp = [[0] * (r + 1)] * (c + 1)
 
-    for i in range(r+1):
-        for j in range(c+1):
+    for i in range(r + 1):
+        for j in range(c + 1):
             if i == 0 or j == 0:
                 dp[i][j] = 1
             else:
-                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
     
     return dp[r][c]
 

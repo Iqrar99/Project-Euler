@@ -3,7 +3,7 @@ If a number contains an even number, just ignore it.
 """
 
 def checkPrime(x):
-    for i in range(2, int(x**0.5)+1):
+    for i in range(2, int(x**0.5) + 1):
         if x % i == 0:
             return False
 

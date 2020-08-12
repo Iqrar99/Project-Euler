@@ -37,7 +37,7 @@ def main():
     for r in range(20):
         for c in range(17):
             mul = 1
-            for cc in range(c, c+4):
+            for cc in range(c, c + 4):
                 mul *= numbers[r][cc]
             max_h = max(max_h, mul)
 
@@ -45,7 +45,7 @@ def main():
     for c in range(20):
         for r in range(17):
             mul = 1
-            for rr in range(r, r+4):
+            for rr in range(r, r + 4):
                 mul *= numbers[rr][c]
             max_v = max(max_v, mul)
 
@@ -54,7 +54,7 @@ def main():
         for c in range(17):
             mul = 1
             for d in range(4):
-                mul *= numbers[r+d][c+d]
+                mul *= numbers[r + d][c + d]
             max_diagonal1 = max(max_diagonal1, mul)
 
     # max_diagonal1 (top right bottom left)
@@ -62,7 +62,7 @@ def main():
         for c in range(19, 2, -1):
             mul = 1
             for d in range(4):
-                mul *= numbers[r+d][c-d]
+                mul *= numbers[r + d][c - d]
             max_diagonal2 = max(max_diagonal2, mul)
 
     print(max(max_diagonal1, max_diagonal2, max_h, max_v))

@@ -13,7 +13,7 @@ def main():
             if a != b:
                 c = (a**2 + b**2)**0.5
                 if a + b + c == 1000:
-                    answer = a*b*c
+                    answer = a * b * c
                     found = True
                     break
         if found: break

@@ -30,7 +30,7 @@ def main():
     
     two_twice_square = []
     for number in range(1, 260):
-        two_twice_square.append(2*number**2)
+        two_twice_square.append(2 * number**2)
 
     for x in range(35, 10000, 2):
         if x not in prime_numbers:

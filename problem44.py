@@ -9,7 +9,7 @@ def pentagon(n) -> int:
     function to produce a pentagon number.
     """
 
-    return (n * (3*n - 1)) // 2
+    return (n * (3 * n - 1)) // 2
 
 def search(x, pentagon_list) -> bool:
     """

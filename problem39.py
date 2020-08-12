@@ -16,7 +16,7 @@ def main():
     for p in range(2, 1001, 2):
         number_of_solution = 0
         for a in range(2, p // 3):
-            if (p*(p - 2*a) % (2*(p - a))) == 0:
+            if (p * (p - 2 * a) % (2 * (p - a))) == 0:
                 number_of_solution += 1
             
             if number_of_solution > result:

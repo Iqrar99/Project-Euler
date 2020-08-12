@@ -6,7 +6,7 @@ So the formula will be like:
 """
 
 def checkPrime(x):
-    for i in range(2, int(x**(0.5))+1):
+    for i in range(2, int(x**(0.5)) + 1):
         if x % i == 0:
             return False
 
@@ -23,7 +23,7 @@ def main():
         counter += 1
         mul = 1
 
-        for i in range(2, int(triangle_number**0.5)+1):
+        for i in range(2, int(triangle_number**0.5) + 1):
             if checkPrime(i):
                 power_counter = 0
                 while t_tmp % i == 0:
